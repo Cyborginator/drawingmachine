@@ -9,10 +9,18 @@ body {
   text-align: center;
   font-family: "courier", monospace;
 }
+
 canvas {
   margin: auto;
   top: 0;
   left: 0;
   position: absolute;
   z-index: -1;
+}
+
+.bottomLeft {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
